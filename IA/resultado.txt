@@ -1,0 +1,2430 @@
+
+Tiempo del reloj: 0 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 1 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 2 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 3 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 4 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 5 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 6 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 7 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 8 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 9 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 10 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 11 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 12 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 13 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 14 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 15 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 16 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 17 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 18 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 19 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 20 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 21 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 22 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 23 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 24 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 25 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 26 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 27 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 28 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 29 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 30 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 31 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 32 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 33 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 34 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 35 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 36 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 37 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 38 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 39 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 40 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 41 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 42 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 43 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 44 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 45 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 46 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 47 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 48 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 49 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 50 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 51 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 52 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 53 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 54 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 55 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 56 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 57 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 58 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 59 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 60 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 61 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 62 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 63 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 64 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 65 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 66 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 67 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 68 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 69 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 70 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 71 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 72 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 73 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 74 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 75 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 76 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 77 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 78 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 79 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 80 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 81 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 82 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 83 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 84 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 85 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 86 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 87 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 88 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 89 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 90 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 91 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 92 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 93 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 94 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 95 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 96 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 97 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 98 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 99 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 100 ms 
+-------------------- 
+Estado de la cola 
+4° - Proceso tipo 5 - Tiempo de arribo 100 - Tiempo de procesamiento restante 2
+3° - Proceso tipo 4 - Tiempo de arribo 100 - Tiempo de procesamiento restante 2
+2° - Proceso tipo 3 - Tiemop de arribo 100 - Tiempo de procesamiento restante 2
+1° - Proceso tipo 2 - Tiempo de arribo 100 - Tiempo de procesamiento restante 2
+
+-------------------- 
+Estado del CPU 
+Estado actual : Ocupado - Proceso tipo 1 - Tiempo de arribo 100 - Tiempo de procesamiento restante 2
+
+Tiempo del reloj: 101 ms 
+-------------------- 
+Estado de la cola 
+4° - Proceso tipo 5 - Tiempo de arribo 100 - Tiempo de procesamiento restante 2
+3° - Proceso tipo 4 - Tiempo de arribo 100 - Tiempo de procesamiento restante 2
+2° - Proceso tipo 3 - Tiemop de arribo 100 - Tiempo de procesamiento restante 2
+1° - Proceso tipo 2 - Tiempo de arribo 100 - Tiempo de procesamiento restante 2
+
+-------------------- 
+Estado del CPU 
+Estado actual : Ocupado - Proceso tipo 1 - Tiempo de arribo 100 - Tiempo de procesamiento restante 1
+
+Tiempo del reloj: 102 ms 
+-------------------- 
+Estado de la cola 
+4° - Proceso tipo 5 - Tiempo de arribo 100 - Tiempo de procesamiento restante 2
+3° - Proceso tipo 4 - Tiempo de arribo 100 - Tiempo de procesamiento restante 2
+2° - Proceso tipo 3 - Tiemop de arribo 100 - Tiempo de procesamiento restante 2
+1° - Proceso tipo 2 - Tiempo de arribo 100 - Tiempo de procesamiento restante 2
+
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 103 ms 
+-------------------- 
+Estado de la cola 
+3° - Proceso tipo 5 - Tiempo de arribo 100 - Tiempo de procesamiento restante 2
+2° - Proceso tipo 4 - Tiempo de arribo 100 - Tiempo de procesamiento restante 2
+1° - Proceso tipo 3 - Tiemop de arribo 100 - Tiempo de procesamiento restante 2
+
+-------------------- 
+Estado del CPU 
+Estado actual : Ocupado - Proceso tipo 2 - Tiempo de arribo 100 - Tiempo de procesamiento restante 2
+
+Tiempo del reloj: 104 ms 
+-------------------- 
+Estado de la cola 
+3° - Proceso tipo 5 - Tiempo de arribo 100 - Tiempo de procesamiento restante 2
+2° - Proceso tipo 4 - Tiempo de arribo 100 - Tiempo de procesamiento restante 2
+1° - Proceso tipo 3 - Tiemop de arribo 100 - Tiempo de procesamiento restante 2
+
+-------------------- 
+Estado del CPU 
+Estado actual : Ocupado - Proceso tipo 2 - Tiempo de arribo 100 - Tiempo de procesamiento restante 1
+
+Tiempo del reloj: 105 ms 
+-------------------- 
+Estado de la cola 
+3° - Proceso tipo 5 - Tiempo de arribo 100 - Tiempo de procesamiento restante 2
+2° - Proceso tipo 4 - Tiempo de arribo 100 - Tiempo de procesamiento restante 2
+1° - Proceso tipo 3 - Tiemop de arribo 100 - Tiempo de procesamiento restante 2
+
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 106 ms 
+-------------------- 
+Estado de la cola 
+2° - Proceso tipo 5 - Tiempo de arribo 100 - Tiempo de procesamiento restante 2
+1° - Proceso tipo 4 - Tiempo de arribo 100 - Tiempo de procesamiento restante 2
+
+-------------------- 
+Estado del CPU 
+Estado actual : Ocupado - Proceso tipo 3 - Tiemop de arribo 100 - Tiempo de procesamiento restante 2
+
+Tiempo del reloj: 107 ms 
+-------------------- 
+Estado de la cola 
+2° - Proceso tipo 5 - Tiempo de arribo 100 - Tiempo de procesamiento restante 2
+1° - Proceso tipo 4 - Tiempo de arribo 100 - Tiempo de procesamiento restante 2
+
+-------------------- 
+Estado del CPU 
+Estado actual : Ocupado - Proceso tipo 3 - Tiemop de arribo 100 - Tiempo de procesamiento restante 1
+
+Tiempo del reloj: 108 ms 
+-------------------- 
+Estado de la cola 
+2° - Proceso tipo 5 - Tiempo de arribo 100 - Tiempo de procesamiento restante 2
+1° - Proceso tipo 4 - Tiempo de arribo 100 - Tiempo de procesamiento restante 2
+
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 109 ms 
+-------------------- 
+Estado de la cola 
+1° - Proceso tipo 5 - Tiempo de arribo 100 - Tiempo de procesamiento restante 2
+
+-------------------- 
+Estado del CPU 
+Estado actual : Ocupado - Proceso tipo 4 - Tiempo de arribo 100 - Tiempo de procesamiento restante 2
+
+Tiempo del reloj: 110 ms 
+-------------------- 
+Estado de la cola 
+1° - Proceso tipo 5 - Tiempo de arribo 100 - Tiempo de procesamiento restante 2
+
+-------------------- 
+Estado del CPU 
+Estado actual : Ocupado - Proceso tipo 4 - Tiempo de arribo 100 - Tiempo de procesamiento restante 1
+
+Tiempo del reloj: 111 ms 
+-------------------- 
+Estado de la cola 
+1° - Proceso tipo 5 - Tiempo de arribo 100 - Tiempo de procesamiento restante 2
+
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 112 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Ocupado - Proceso tipo 5 - Tiempo de arribo 100 - Tiempo de procesamiento restante 2
+
+Tiempo del reloj: 113 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Ocupado - Proceso tipo 5 - Tiempo de arribo 100 - Tiempo de procesamiento restante 1
+
+Tiempo del reloj: 114 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 115 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 116 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 117 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 118 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 119 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 120 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 121 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 122 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 123 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 124 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 125 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 126 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 127 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 128 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 129 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 130 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 131 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 132 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 133 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 134 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 135 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 136 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 137 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 138 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 139 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 140 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 141 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 142 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 143 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 144 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 145 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 146 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 147 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 148 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 149 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 150 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 151 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 152 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 153 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 154 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 155 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 156 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 157 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 158 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 159 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 160 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 161 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 162 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 163 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 164 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 165 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 166 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 167 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 168 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 169 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 170 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 171 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 172 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 173 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 174 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 175 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 176 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 177 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 178 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 179 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 180 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 181 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 182 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 183 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 184 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 185 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 186 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 187 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 188 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 189 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 190 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 191 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 192 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 193 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 194 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 195 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 196 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 197 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 198 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 199 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 200 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 201 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 202 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 203 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 204 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 205 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 206 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 207 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 208 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 209 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 210 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 211 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 212 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 213 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 214 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 215 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 216 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 217 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 218 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 219 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 220 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 221 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 222 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 223 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 224 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 225 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 226 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 227 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 228 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 229 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 230 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 231 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 232 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 233 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 234 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 235 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 236 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 237 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 238 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 239 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 240 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 241 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 242 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 243 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 244 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 245 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 246 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 247 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 248 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 249 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 250 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 251 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 252 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 253 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 254 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 255 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 256 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 257 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 258 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 259 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 260 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 261 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 262 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 263 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 264 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 265 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 266 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 267 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 268 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 269 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 270 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 271 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 272 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 273 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 274 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 275 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 276 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 277 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 278 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 279 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 280 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 281 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 282 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 283 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 284 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 285 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 286 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 287 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 288 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 289 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 290 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 291 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 292 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 293 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 294 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 295 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 296 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 297 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 298 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
+
+Tiempo del reloj: 299 ms 
+-------------------- 
+Estado de la cola 
+Cola vacía
+-------------------- 
+Estado del CPU 
+Estado actual : Disponible 
