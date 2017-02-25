@@ -1,11 +1,8 @@
 package test;
 
 import org.junit.Test;
-import source.Agente;
-import source.Egreedy;
-import source.Entorno;
+import source.*;
 import source.EntornoReal.*;
-import source.Politica;
 
 import java.util.ArrayList;
 
@@ -18,11 +15,6 @@ public class TestAmbiente {
     @Test
     public void testAmbiente(){
         AmbienteOperativo ambiente = AmbienteOperativo.getInstancia();
-        Entorno.getInstancia().crearEstados(2);
-        Entorno.getInstancia().crearAcciones();
-        Entorno.getInstancia().crearTransiciones();
-        Politica egreedy = new Egreedy(0.1);
-        Agente agente = new Agente(egreedy);
 
         Proceso p1 = new ProcesoTipoUno();
         Proceso p2 = new ProcesoTipoDos();
@@ -43,22 +35,21 @@ public class TestAmbiente {
         ArrayList<Proceso> procesosTipoCinco = new ArrayList<>();
 
         procesosTipoUno.add(p1);
+        procesosTipoUno.add(p1);
         procesosTipoDos.add(p2);
         procesosTipoTres.add(p3);
         procesosTipoCuatro.add(p4);
         procesosTipoCinco.add(p5);
 
         ambiente.setArrayProcesosTipoUno(procesosTipoUno);
-        /*ambiente.setArrayProcesosTipoDos(procesosTipoDos);
+        ambiente.setArrayProcesosTipoDos(procesosTipoDos);
         ambiente.setArrayProcesosTipoTres(procesosTipoTres);
         ambiente.setArrayProcesosTipoCuatro(procesosTipoCuatro);
-        ambiente.setArrayProcesosTipoCinco(procesosTipoCinco);*/
+        ambiente.setArrayProcesosTipoCinco(procesosTipoCinco);
 
-        ArrayList<Proceso> proceosEntrantes = ambiente.getProcesosEntrantes(0.0);
+        ControladorSimulacion c = new ControladorSimulacion();
+        //c.iniciarSimulacion(2, 1,0.1, 0.75, 0.95,100,0.25);
 
-        while(!proceosEntrantes.isEmpty()){
-            agente.aprender(0.75, 0.95, 10, 0.25, proceosEntrantes,0.0);
-        }
     }
 
     @Test

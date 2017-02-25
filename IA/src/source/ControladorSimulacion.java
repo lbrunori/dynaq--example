@@ -15,7 +15,7 @@ public class ControladorSimulacion {
     private Politica politica;
     private Agente agente;
 
-    public void iniciarSimulacion(int tamanioCola, double tiempoSimulacion, double epsilon, double gamma, double alfa, int N, double k){
+    public void iniciarSimulacion(int tamanioCola, double tiempoSimulacion, String nombrePolitica, double epsilon, double temperatura, double gamma, double alfa, int N, double k){
         entorno.crearEstados(tamanioCola);
         entorno.imprimirEstados();
         entorno.crearAcciones();
@@ -24,13 +24,18 @@ public class ControladorSimulacion {
         entorno.imprimirTransiciones();
         ambienteOperativo.generarProcesos(tiempoSimulacion);
         ColaProcesamiento.getInstancia().setTamanioCola(tamanioCola);
-        politica = new Egreedy(0.1);
+        if(nombrePolitica.equals("Egreedy")){
+            politica = new Egreedy(epsilon);
+        }else{
+            politica = new Softmax(epsilon, temperatura);
+        }
         agente = new Agente(politica);
         correrSimulacion(tiempoSimulacion, gamma, alfa, N, k);
+
     }
 
     private void correrSimulacion(double tiempoSimulacion, double gamma, double alfa, int N, double k){
-        while(reloj.getUnidadesDeTiempo() < tiempoSimulacion){
+        while(reloj.getUnidadesDeTiempo() <= tiempoSimulacion){
             ArrayList<Proceso> procesosEntrantes =
                     ambienteOperativo.getProcesosEntrantes(reloj.getUnidadesDeTiempo());
 

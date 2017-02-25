@@ -18,13 +18,17 @@ public class Egreedy implements Politica {
     private MersenneTwister numeroAleatoriosParaEpsilon;
     private MersenneTwister numeroAleatoriosParaAcciones;
     private MersenneTwister numeroAleatorioSelector;
-    private Random randomMejorAccion = new Random();
+    private Random randomMejorAccion;
+    private Random randomAccionIguales;
+    private double temperatura = 0.0;
 
     public Egreedy(double epsilon){
         this.epsilon = epsilon;
         this.numeroAleatoriosParaAcciones = new MersenneTwister();
         this.numeroAleatoriosParaEpsilon = new MersenneTwister();
         this.numeroAleatorioSelector = new MersenneTwister();
+        this.randomMejorAccion = new Random();
+        this.randomAccionIguales = new Random();
     }
 
 
@@ -34,7 +38,7 @@ public class Egreedy implements Politica {
         if(Uniform.random(0,1, numeroAleatoriosParaEpsilon) >= epsilon){
             return explotar(procesosEntrantes, accionesTotales, matrizQ, estadoActual);
         }else{
-            return explorar(procesosEntrantes, accionesTotales);
+            return explorar(procesosEntrantes, accionesTotales, estadoActual, matrizQ, temperatura);
         }
     }
 
@@ -119,37 +123,47 @@ public class Egreedy implements Politica {
         mejorProceso = mejoresProcesos.get(randomMejorAccion.nextInt(mejoresProcesos.size()));
 
         if (mejorProceso instanceof ProcesoTipoUno){
-            if(matrizQ[estadoActual.getNumero()][0] >= matrizQ[estadoActual.getNumero()][1]){
+            if(matrizQ[estadoActual.getNumero()][0] > matrizQ[estadoActual.getNumero()][1]){
                 return accionesTotales.get(0);
-            }else{
+            }else if(matrizQ[estadoActual.getNumero()][0] < matrizQ[estadoActual.getNumero()][1]){
                 return accionesTotales.get(1);
+            }else{
+                return accionesTotales.get(0 + randomAccionIguales.nextInt(1));
             }
         }
         if (mejorProceso instanceof ProcesoTipoDos){
-            if(matrizQ[estadoActual.getNumero()][2] >= matrizQ[estadoActual.getNumero()][3]){
+            if(matrizQ[estadoActual.getNumero()][2] > matrizQ[estadoActual.getNumero()][3]){
                 return accionesTotales.get(2);
-            }else{
+            }else if(matrizQ[estadoActual.getNumero()][2] < matrizQ[estadoActual.getNumero()][3]){
                 return accionesTotales.get(3);
+            }else{
+                return accionesTotales.get(2 + randomAccionIguales.nextInt(1));
             }
         }
         if (mejorProceso instanceof ProcesoTipoTres){
-            if(matrizQ[estadoActual.getNumero()][4] >= matrizQ[estadoActual.getNumero()][5]){
+            if(matrizQ[estadoActual.getNumero()][4] > matrizQ[estadoActual.getNumero()][5]){
                 return accionesTotales.get(4);
-            }else{
+            }else if(matrizQ[estadoActual.getNumero()][4] < matrizQ[estadoActual.getNumero()][5]){
                 return accionesTotales.get(5);
+            }else{
+                return accionesTotales.get(4 + randomAccionIguales.nextInt(1));
             }
         }
         if (mejorProceso instanceof ProcesoTipoCuatro){
-            if(matrizQ[estadoActual.getNumero()][6] >= matrizQ[estadoActual.getNumero()][7]){
+            if(matrizQ[estadoActual.getNumero()][6] > matrizQ[estadoActual.getNumero()][7]){
                 return accionesTotales.get(6);
-            }else{
+            }else if(matrizQ[estadoActual.getNumero()][6] < matrizQ[estadoActual.getNumero()][7]){
                 return accionesTotales.get(7);
+            }else{
+                return accionesTotales.get(6 + randomAccionIguales.nextInt(1));
             }
         }if (mejorProceso instanceof ProcesoTipoCinco){
-            if(matrizQ[estadoActual.getNumero()][8] >= matrizQ[estadoActual.getNumero()][9]){
+            if(matrizQ[estadoActual.getNumero()][8] > matrizQ[estadoActual.getNumero()][9]){
                 return accionesTotales.get(8);
-            }else{
+            }else if(matrizQ[estadoActual.getNumero()][8] < matrizQ[estadoActual.getNumero()][9]){
                 return accionesTotales.get(9);
+            }else{
+                return accionesTotales.get(8 + randomAccionIguales.nextInt(1));
             }
         }
         return null;
@@ -157,7 +171,7 @@ public class Egreedy implements Politica {
 
     @Override
     public Accion explorar(ArrayList<Proceso> procesosEntrantes,
-                           ArrayList<Accion> accionesTotales) {
+                           ArrayList<Accion> accionesTotales, Estado estadoActual, double[][] matrizQ, double temperatura) {
         Proceso p = procesosEntrantes.get(((int) Uniform.random(0, procesosEntrantes.size(), numeroAleatoriosParaAcciones)));
         if (p instanceof ProcesoTipoUno){
             return accionesTotales.get(0 + (int) Uniform.random(0, 1, numeroAleatorioSelector));
@@ -180,7 +194,7 @@ public class Egreedy implements Politica {
     @Override
     public Accion obtenerMejorAccion(Estado estadoActual, double[][] matrizQ, ArrayList<Accion> arrayAcciones) {
         ArrayList<Integer> indexMejoresAcciones = new ArrayList<Integer>();
-        double qMejorAccion = -1.0;
+        double qMejorAccion = -1000.0;
         for (int i = 0 ; i < arrayAcciones.size(); i++){
             if (matrizQ[estadoActual.getNumero()][i] > qMejorAccion){
                 indexMejoresAcciones = new ArrayList<Integer>();

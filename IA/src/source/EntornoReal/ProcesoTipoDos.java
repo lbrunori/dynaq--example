@@ -39,12 +39,13 @@ public class ProcesoTipoDos extends Proceso{
 
     @Override
     public double getTiempoDeArribo() {
-        return this.tiempoArribo.setScale(2,BigDecimal.ROUND_HALF_UP).doubleValue();
+        return this.tiempoArribo.setScale(1,BigDecimal.ROUND_HALF_UP).doubleValue();
     }
+
 
     @Override
     public double getTiempoProcesamientoRestante() {
-        return this.tiempoProcesamientoRestante.setScale(2,BigDecimal.ROUND_HALF_UP).doubleValue();
+        return this.tiempoProcesamientoRestante.setScale(1,BigDecimal.ROUND_HALF_UP).doubleValue();
     }
 
     public static String getNombreDelProceso(){
@@ -56,13 +57,14 @@ public class ProcesoTipoDos extends Proceso{
         return "Proceso " + nombreDelProceso + " - Tiempo de arribo " + this.getTiempoDeArribo() + " - Tiempo de procesamiento restante " + this.getTiempoProcesamientoRestante();
     }
 
+    @Override
     public void setTiempoArribo(double tiempoArribo) {
-        this.tiempoArribo = new BigDecimal(tiempoArribo).setScale(2,BigDecimal.ROUND_HALF_UP);
+        this.tiempoArribo = new BigDecimal(tiempoArribo).setScale(1,BigDecimal.ROUND_HALF_UP);
     }
 
     @Override
     public void setTiempoProcesamientoRestante(double tiempoProcesamientoRestante) {
-        this.tiempoProcesamientoRestante = new BigDecimal(tiempoProcesamientoRestante).setScale(2,BigDecimal.ROUND_HALF_UP);
+        this.tiempoProcesamientoRestante = new BigDecimal(tiempoProcesamientoRestante).setScale(1,BigDecimal.ROUND_HALF_UP);
     }
 
     public static int getBeneficio(){

@@ -74,12 +74,9 @@ public class AmbienteOperativo {
                  ) {
                 if(p instanceof ProcesoTipoUno){
                     procesoABorrar = p;
-                    Impresor.aumentarCantT1Rechazadas();
+                    arrayProcesosTipoUno.remove(p);
+                    break;
                 }
-            }
-            for (Proceso proceso : arrayProcesosTipoUno
-                    ) {
-                proceso.setTiempoArribo(proceso.getTiempoDeArribo() * 1.01);
             }
         }
         if (a.getTipoProceso() == 2){
@@ -87,12 +84,9 @@ public class AmbienteOperativo {
                     ) {
                 if(p instanceof ProcesoTipoDos){
                     procesoABorrar = p;
-                    Impresor.aumentarCantT2Rechazadas();
+                    arrayProcesosTipoDos.remove(p);
+                    break;
                 }
-            }
-            for (Proceso proceso : arrayProcesosTipoDos
-                    ) {
-                proceso.setTiempoArribo(proceso.getTiempoDeArribo() * 1.01);
             }
         }
         if (a.getTipoProceso() == 3){
@@ -100,12 +94,9 @@ public class AmbienteOperativo {
                     ) {
                 if(p instanceof ProcesoTipoTres){
                     procesoABorrar = p;
-                    Impresor.aumentarCantT3Rechazadas();
+                    arrayProcesosTipoTres.remove(p);
+                    break;
                 }
-            }
-            for (Proceso proceso : arrayProcesosTipoTres
-                    ) {
-                proceso.setTiempoArribo(proceso.getTiempoDeArribo() * 1.01);
             }
         }
         if (a.getTipoProceso() == 4){
@@ -113,12 +104,9 @@ public class AmbienteOperativo {
                     ) {
                 if(p instanceof ProcesoTipoCuatro){
                     procesoABorrar = p;
-                    Impresor.aumentarCantT4Rechazadas();
+                    arrayProcesosTipoCuatro.remove(p);
+                    break;
                 }
-            }
-            for (Proceso proceso : arrayProcesosTipoCuatro
-                    ) {
-                proceso.setTiempoArribo(proceso.getTiempoDeArribo() * 1.01);
             }
         }
         if (a.getTipoProceso() == 5){
@@ -126,15 +114,42 @@ public class AmbienteOperativo {
                     ) {
                 if(p instanceof ProcesoTipoCinco){
                     procesoABorrar = p;
-                    Impresor.aumentarCantT5Rechazadas();
+                    arrayProcesosTipoCinco.remove(p);
+                    break;
                 }
             }
-            for (Proceso proceso : arrayProcesosTipoCinco
-                    ) {
-                proceso.setTiempoArribo(proceso.getTiempoDeArribo() * 1.01);
-            }
         }
+
         this.borrarProcesoEntrante(procesoABorrar);
+
+        for (Proceso proceso : arrayProcesosTipoUno
+                ) {
+            proceso.setTiempoArribo(proceso.getTiempoDeArribo() * 1.01);
+        }
+        for (Proceso proceso : arrayProcesosTipoDos
+                ) {
+            proceso.setTiempoArribo(proceso.getTiempoDeArribo() * 1.01);
+        }
+        for (Proceso proceso : arrayProcesosTipoTres
+                ) {
+            proceso.setTiempoArribo(proceso.getTiempoDeArribo() * 1.01);
+        }
+        for (Proceso proceso : arrayProcesosTipoCuatro
+                ) {
+            proceso.setTiempoArribo(proceso.getTiempoDeArribo() * 1.01);
+        }
+        for (Proceso proceso : arrayProcesosTipoCinco
+                ) {
+            proceso.setTiempoArribo(proceso.getTiempoDeArribo() * 1.01);
+        }
+
+        if(a.getTipoProceso() == 1 ){ Impresor.aumentarCantT1Rechazadas();}
+        if(a.getTipoProceso() == 2 ){ Impresor.aumentarCantT2Rechazadas();}
+        if(a.getTipoProceso() == 3 ){ Impresor.aumentarCantT3Rechazadas();}
+        if(a.getTipoProceso() == 4 ){ Impresor.aumentarCantT4Rechazadas();}
+        if(a.getTipoProceso() == 5 ){ Impresor.aumentarCantT5Rechazadas();}
+
+
     }
 
     public void generarProcesos(double tiempoHasta){
@@ -179,7 +194,32 @@ public class AmbienteOperativo {
             this.arrayProcesosTipoCinco.add(p);
         }
 
+        this.mostrarProcesosCreados();
+        System.out.println();
         this.mostrarCantidadProcesosCreados();
+    }
+
+    public void mostrarProcesosCreados() {
+        for (Proceso p: arrayProcesosTipoUno
+             ) {
+            System.out.println(p.toString());
+        }
+        for (Proceso p: arrayProcesosTipoDos
+                ) {
+            System.out.println(p.toString());
+        }
+        for (Proceso p: arrayProcesosTipoTres
+                ) {
+            System.out.println(p.toString());
+        }
+        for (Proceso p: arrayProcesosTipoCuatro
+                ) {
+            System.out.println(p.toString());
+        }
+        for (Proceso p: arrayProcesosTipoCinco
+                ) {
+            System.out.println(p.toString());
+        }
     }
 
 

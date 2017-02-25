@@ -65,9 +65,7 @@ public class Impresor {
         cantT5Aceptados++;
     }
 
-    public static void aumentarCantT1Rechazadas(){
-        cantT1Rechazadas++;
-    }
+    public static void aumentarCantT1Rechazadas(){ cantT1Rechazadas++;  }
     public static void aumentarCantT2Rechazadas(){
         cantT2Rechazadas++;
     }

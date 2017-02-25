@@ -17,13 +17,18 @@ public class Softmax implements Politica {
     private MersenneTwister numeroAleatoriosParaEpsilon;
     private MersenneTwister numeroAleatoriosParaAcciones;
     private MersenneTwister numeroAleatorioSelector;
-    private Random randomMejorAccion = new Random();
+    private Random randomMejorAccion;
+    private Random randomAccionIguales;
+    private double temperatura;
 
-    public Softmax(double epsilon){
+    public Softmax(double epsilon, double temperatura){
         this.epsilon = epsilon;
         this.numeroAleatoriosParaAcciones = new MersenneTwister();
         this.numeroAleatoriosParaEpsilon = new MersenneTwister();
         this.numeroAleatorioSelector = new MersenneTwister();
+        this.randomMejorAccion = new Random();
+        this.randomAccionIguales = new Random();
+        this.temperatura = temperatura;
     }
 
 
@@ -31,9 +36,11 @@ public class Softmax implements Politica {
     public Accion obtenerAccion(ArrayList<Proceso> procesosEntrantes,
                                 ArrayList<Accion> accionesTotales, double[][] matrizQ, Estado estadoActual) {
         if(Uniform.random(0,1, numeroAleatoriosParaEpsilon) > epsilon){
+            System.out.println("explota");
             return explotar(procesosEntrantes, accionesTotales, matrizQ, estadoActual);
         }else{
-            return explorar(procesosEntrantes, accionesTotales);
+            System.out.println("explora");
+            return explorar(procesosEntrantes, accionesTotales, estadoActual, matrizQ, this.temperatura);
         }
     }
 
@@ -118,37 +125,47 @@ public class Softmax implements Politica {
         mejorProceso = mejoresProcesos.get(randomMejorAccion.nextInt(mejoresProcesos.size()));
 
         if (mejorProceso instanceof ProcesoTipoUno){
-            if(matrizQ[estadoActual.getNumero()][0] >= matrizQ[estadoActual.getNumero()][1]){
+            if(matrizQ[estadoActual.getNumero()][0] > matrizQ[estadoActual.getNumero()][1]){
                 return accionesTotales.get(0);
-            }else{
+            }else if(matrizQ[estadoActual.getNumero()][0] < matrizQ[estadoActual.getNumero()][1]){
                 return accionesTotales.get(1);
+            }else{
+                return accionesTotales.get(0 + randomAccionIguales.nextInt(1));
             }
         }
         if (mejorProceso instanceof ProcesoTipoDos){
-            if(matrizQ[estadoActual.getNumero()][2] >= matrizQ[estadoActual.getNumero()][3]){
+            if(matrizQ[estadoActual.getNumero()][2] > matrizQ[estadoActual.getNumero()][3]){
                 return accionesTotales.get(2);
-            }else{
+            }else if(matrizQ[estadoActual.getNumero()][2] < matrizQ[estadoActual.getNumero()][3]){
                 return accionesTotales.get(3);
+            }else{
+                return accionesTotales.get(2 + randomAccionIguales.nextInt(1));
             }
         }
         if (mejorProceso instanceof ProcesoTipoTres){
-            if(matrizQ[estadoActual.getNumero()][4] >= matrizQ[estadoActual.getNumero()][5]){
+            if(matrizQ[estadoActual.getNumero()][4] > matrizQ[estadoActual.getNumero()][5]){
                 return accionesTotales.get(4);
-            }else{
+            }else if(matrizQ[estadoActual.getNumero()][4] < matrizQ[estadoActual.getNumero()][5]){
                 return accionesTotales.get(5);
+            }else{
+                return accionesTotales.get(4 + randomAccionIguales.nextInt(1));
             }
         }
         if (mejorProceso instanceof ProcesoTipoCuatro){
-            if(matrizQ[estadoActual.getNumero()][6] >= matrizQ[estadoActual.getNumero()][7]){
+            if(matrizQ[estadoActual.getNumero()][6] > matrizQ[estadoActual.getNumero()][7]){
                 return accionesTotales.get(6);
-            }else{
+            }else if(matrizQ[estadoActual.getNumero()][6] < matrizQ[estadoActual.getNumero()][7]){
                 return accionesTotales.get(7);
+            }else{
+                return accionesTotales.get(6 + randomAccionIguales.nextInt(1));
             }
         }if (mejorProceso instanceof ProcesoTipoCinco){
-            if(matrizQ[estadoActual.getNumero()][8] >= matrizQ[estadoActual.getNumero()][9]){
+            if(matrizQ[estadoActual.getNumero()][8] > matrizQ[estadoActual.getNumero()][9]){
                 return accionesTotales.get(8);
-            }else{
+            }else if(matrizQ[estadoActual.getNumero()][8] < matrizQ[estadoActual.getNumero()][9]){
                 return accionesTotales.get(9);
+            }else{
+                return accionesTotales.get(8 + randomAccionIguales.nextInt(1));
             }
         }
         return null;
@@ -156,22 +173,79 @@ public class Softmax implements Politica {
 
     @Override
     public Accion explorar(ArrayList<Proceso> procesosEntrantes,
-                           ArrayList<Accion> accionesTotales) {
-        Proceso p = procesosEntrantes.get(((int) Uniform.random(0, procesosEntrantes.size(), numeroAleatoriosParaAcciones)));
-        if (p instanceof ProcesoTipoUno){
-            return accionesTotales.get(0 + (int) Uniform.random(0, 1, numeroAleatorioSelector));
+                           ArrayList<Accion> accionesTotales, Estado estadoActual, double[][] matrizQ, double temperatura) {
+        ArrayList<Accion> accionesPosibles = new ArrayList<>();
+
+        for (Proceso p : procesosEntrantes
+                ) {
+            if( p instanceof ProcesoTipoUno){
+                accionesPosibles.add(accionesTotales.get(0));
+                accionesPosibles.add(accionesTotales.get(1));
+                continue;
+            }
+            if( p instanceof ProcesoTipoDos){
+                accionesPosibles.add(accionesTotales.get(2));
+                accionesPosibles.add(accionesTotales.get(3));
+                continue;
+            }
+            if( p instanceof ProcesoTipoTres){
+                accionesPosibles.add(accionesTotales.get(4));
+                accionesPosibles.add(accionesTotales.get(5));
+                continue;
+            }
+            if( p instanceof ProcesoTipoCuatro){
+                accionesPosibles.add(accionesTotales.get(6));
+                accionesPosibles.add(accionesTotales.get(7));
+                continue;
+            }
+            if( p instanceof ProcesoTipoCinco){
+                accionesPosibles.add(accionesTotales.get(8));
+                accionesPosibles.add(accionesTotales.get(9));
+                continue;
+            }
         }
-        if (p instanceof ProcesoTipoDos){
-            return accionesTotales.get(2 + (int) Uniform.random(0, 1, numeroAleatorioSelector));
+
+        double qMaxima = -1000.0;
+        ArrayList<Accion> arrayMejoresAcciones = new ArrayList<>();
+        for (Accion a : accionesPosibles
+             ) {
+            if (matrizQ[estadoActual.getNumero()][a.getNumero()] > qMaxima){
+                arrayMejoresAcciones = new ArrayList<>();
+                arrayMejoresAcciones.add(a);
+                qMaxima = matrizQ[estadoActual.getNumero()][a.getNumero()];
+                continue;
+            }if (matrizQ[estadoActual.getNumero()][a.getNumero()] == qMaxima){
+                arrayMejoresAcciones.add(a);
+            }
         }
-        if (p instanceof ProcesoTipoTres){
-            return accionesTotales.get(4 + (int) Uniform.random(0, 1, numeroAleatorioSelector));
+        if(arrayMejoresAcciones.size() < accionesPosibles.size()){
+            for (Accion a: arrayMejoresAcciones
+                 ) {
+                accionesPosibles.remove(a);
+            }
         }
-        if (p instanceof ProcesoTipoCuatro){
-            return accionesTotales.get(6 + (int) Uniform.random(0, 1, numeroAleatorioSelector));
+
+        double[] probabilidadAccion = new double[accionesPosibles.size()+1];
+        probabilidadAccion[0] = 0.0;
+        double probabilidadAcumulada = 0.0;
+
+        for (Accion a : accionesPosibles
+                ) {
+            probabilidadAcumulada = probabilidadAcumulada + Math.exp((matrizQ[estadoActual.getNumero()][a.getNumero()])/temperatura);
         }
-        if (p instanceof ProcesoTipoCinco){
-            return accionesTotales.get(8 + (int) Uniform.random(0, 1, numeroAleatorioSelector));
+
+        for (int i = 0; i < accionesPosibles.size() ; i++
+             ) {
+            probabilidadAccion[i+1] = (Math.exp((matrizQ[estadoActual.getNumero()][accionesPosibles.get(i).getNumero()])/temperatura))/probabilidadAcumulada +
+                    probabilidadAccion[i];
+        }
+
+        double random = Uniform.random(0,1,numeroAleatoriosParaAcciones);
+
+        for (int i = 0; i < probabilidadAccion.length-1 ; i++){
+            if (probabilidadAccion[i] <= random && random < probabilidadAccion[i+1] ) {
+                return accionesPosibles.get(i);
+            }
         }
         return null;
     }

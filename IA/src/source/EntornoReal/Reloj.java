@@ -25,11 +25,11 @@ public class Reloj {
 
     //Reduce la cantidad de tiempo en un milisegundo
     public void incrementarReloj() {
-        this.unidadesDeTiempo = this.unidadesDeTiempo.add(new BigDecimal(0.01));
+        this.unidadesDeTiempo = this.unidadesDeTiempo.add(new BigDecimal(0.1));
     }
 
     //Devuelve las unidades de tiempo actual
     public double getUnidadesDeTiempo() {
-        return new BigDecimal(this.unidadesDeTiempo.doubleValue()).setScale(2,BigDecimal.ROUND_HALF_UP).doubleValue();
+        return new BigDecimal(this.unidadesDeTiempo.doubleValue()).setScale(1,BigDecimal.ROUND_HALF_UP).doubleValue();
     }
 }

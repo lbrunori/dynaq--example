@@ -27,20 +27,22 @@ public abstract class Proceso {
             p *= Math.random();
         } while (p > L);
         double numero = 1 / (k - 0.1);
-        numero = redondear(numero);
+        System.out.println(numero);
+        numero = redondear(numero * 10);
         return numero;
 
     }
 
     public double getExponencial(double media) {
         double numero = Math.log(1 - Math.random()) / (-(1 / media));
-        return redondear(numero);
+        System.out.println(numero);
+        return redondear(numero * 10);
 
     }
 
     public double redondear(double d) {
         BigDecimal bd = new BigDecimal(d);
-        bd = bd.setScale(2, BigDecimal.ROUND_HALF_UP);
+        bd = bd.setScale(1, BigDecimal.ROUND_HALF_UP);
         return bd.doubleValue();
     }
 }

@@ -23,6 +23,9 @@ public class Agente {
     private Politica politica;
     private int cantidadSteps;
 
+    int intCantAceptados = 0;
+    int intCantRechazados = 0;
+
     public Agente(Politica politica) {
         this.entorno = Entorno.getInstancia();
         this.estadoActual = this.entorno.getArrayEstados().get(0);
@@ -62,14 +65,8 @@ public class Agente {
         Accion a_prima = this.politica.obtenerMejorAccion(s_prima, matrizQ, entorno.getArrayAcciones());
 
         if (a.getEsAceptar() && servidor.getCola().estaDisponible()) {
-            /*System.out.println("Es aceptar " + a.getEsAceptar());
-            System.out.println("Cant procesos en cola " + servidor.getCola().cantidadDeProcesosActuales());
-            System.out.println("Acepto");
-            System.out.println(s);
-            System.out.println(s_prima);
-            System.out.println(reward);*/
             this.agregarProcesoAlServidor(a, procesosEntrantes);
-            Impresor.acumularReward(reward, unidadesDeTiempo);
+            Impresor.acumularReward(reward,unidadesDeTiempo);
         } else {
             AmbienteOperativo.getInstancia().aumentarTiempoDeArriboProcesos(a,procesosEntrantes);
         }
@@ -98,16 +95,14 @@ public class Agente {
             }
             a_modelo = auxiliarAcciones.get(new Random().nextInt(auxiliarAcciones.size()));
             Estado s_prima_modelo = entorno.getArrayEstados().get((int) modelo[s_modelo.getNumero()][a_modelo.getNumero()][0]);
+
             double reward_modelo = modelo[s_modelo.getNumero()][a_modelo.getNumero()][1];
             Accion a_prima_modelo = politica.obtenerMejorAccion(s_prima_modelo, matrizQ, entorno.getArrayAcciones());
-
             matrizQ[s_modelo.getNumero()][a_modelo.getNumero()] = matrizQ[s_modelo.getNumero()][a_modelo.getNumero()] +
                     alfa * (reward_modelo + gamma * matrizQ[s_prima_modelo.getNumero()][a_prima_modelo.getNumero()] - matrizQ[s_modelo.getNumero()][a_modelo.getNumero()]);
+
+            this.incrementarRewardMatrizQConK(k, estadoActual, a);
         }
-
-        this.incrementarRewardMatrizQConK(k, estadoActual, a);
-        /*this.setEstadoActual(s_prima);*/
-
     }
 
     public void incrementarRewardMatrizQConK(double k, Estado estadoActual, Accion a) {
@@ -115,7 +110,7 @@ public class Agente {
         for (int i = 0; i < entorno.getArrayEstados().size(); i++) {
             for (int j = 0; j < entorno.getArrayAcciones().size(); j++) {
                 matrizN[i][j] =+ 1;
-                modelo[i][j][1] = +k * Math.sqrt(matrizN[i][j]);
+                modelo[i][j][1] =+ k * Math.sqrt(matrizN[i][j]);
             }
         }
 	    matrizN[estadoActual.getNumero()][a.getNumero()] = 0;
@@ -129,6 +124,7 @@ public class Agente {
                 if (p instanceof ProcesoTipoUno) {
                     this.getServidor().getCola().agregarProceso(p);
                     procesoAsignado = p;
+                    AmbienteOperativo.getInstancia().getArrayProcesosTipoUno().remove(p);
                     Impresor.aumentarCantT1Aceptadas();
                     break;
                 }
@@ -140,6 +136,7 @@ public class Agente {
                 if (p instanceof ProcesoTipoDos) {
                     this.getServidor().getCola().agregarProceso(p);
                     procesoAsignado = p;
+                    AmbienteOperativo.getInstancia().getArrayProcesosTipoDos().remove(p);
                     Impresor.aumentarCantT2Aceptadas();
                     break;
                 }
@@ -151,6 +148,7 @@ public class Agente {
                 if (p instanceof ProcesoTipoTres) {
                     this.getServidor().getCola().agregarProceso(p);
                     procesoAsignado = p;
+                    AmbienteOperativo.getInstancia().getArrayProcesosTipoTres().remove(p);
                     Impresor.aumentarCantT3Aceptadas();
                     break;
                 }
@@ -162,6 +160,7 @@ public class Agente {
                 if (p instanceof ProcesoTipoCuatro) {
                     this.getServidor().getCola().agregarProceso(p);
                     procesoAsignado = p;
+                    AmbienteOperativo.getInstancia().getArrayProcesosTipoCuatro().remove(p);
                     Impresor.aumentarCantT4Aceptadas();
                     break;
                 }
@@ -173,6 +172,7 @@ public class Agente {
                 if (p instanceof ProcesoTipoCinco) {
                     this.getServidor().getCola().agregarProceso(p);
                     procesoAsignado = p;
+                    AmbienteOperativo.getInstancia().getArrayProcesosTipoCinco().remove(p);
                     Impresor.aumentarCantT5Aceptadas();
                     break;
                 }

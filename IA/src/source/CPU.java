@@ -27,7 +27,7 @@ public class CPU {
     public void procesar(){
         try{
             if(this.procesoActual != null) {
-                this.procesoActual.descontarTiempoRestante(0.01);
+                this.procesoActual.descontarTiempoRestante(0.1);
                 if (this.procesoActual.getTiempoProcesamientoRestante() == 0) {
                     this.procesoActual = null;
                     this.setEstaDisponible(true);

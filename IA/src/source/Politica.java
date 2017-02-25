@@ -18,7 +18,7 @@ public interface Politica {
                            double[][] matrizQ, Estado estadoActual);
 
     public Accion explorar(ArrayList<Proceso> procesosEntrantes,
-                           ArrayList<Accion> accionesTotales);
+                           ArrayList<Accion> accionesTotales, Estado estadoActual, double[][] matrizQ, double temperatura);
 
     public Accion obtenerMejorAccion(Estado estadoActual, double[][] matrizQ, ArrayList<Accion> arrayAcciones);
 
