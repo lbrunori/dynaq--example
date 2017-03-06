@@ -1,2 +1,2 @@
 # DynaQ+ - example
-Basic implementation of algorithm DynaQ+ to adminsitrate a proccessing queue.
+Basic implementation of DynaQ+ to adminsitrate a proccessing queue.
