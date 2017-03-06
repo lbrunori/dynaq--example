@@ -1,11 +1,16 @@
 package source.EntornoReal;
 
+import jdistlib.Poisson;
+import jdistlib.rng.MersenneTwister;
+
 import java.math.BigDecimal;
 
 /**
  * Created by lbrunorig50 on 07/12/16.
  */
 public abstract class Proceso {
+
+    private MersenneTwister poisson = new MersenneTwister();
 
     public abstract double getTiempoDeArribo();
 
@@ -27,7 +32,6 @@ public abstract class Proceso {
             p *= Math.random();
         } while (p > L);
         double numero = 1 / (k - 0.1);
-        System.out.println(numero);
         numero = redondear(numero * 10);
         return numero;
 
@@ -35,7 +39,6 @@ public abstract class Proceso {
 
     public double getExponencial(double media) {
         double numero = Math.log(1 - Math.random()) / (-(1 / media));
-        System.out.println(numero);
         return redondear(numero * 10);
 
     }

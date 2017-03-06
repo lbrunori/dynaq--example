@@ -3,6 +3,9 @@ package source;
 import source.EntornoReal.*;
 
 import javax.swing.*;
+import java.awt.*;
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Random;
@@ -21,10 +24,6 @@ public class Agente {
     private Entorno entorno;
     private Estado estadoActual;
     private Politica politica;
-    private int cantidadSteps;
-
-    int intCantAceptados = 0;
-    int intCantRechazados = 0;
 
     public Agente(Politica politica) {
         this.entorno = Entorno.getInstancia();
@@ -68,6 +67,7 @@ public class Agente {
             this.agregarProcesoAlServidor(a, procesosEntrantes);
             Impresor.acumularReward(reward,unidadesDeTiempo);
         } else {
+            Impresor.acumularReward(0,unidadesDeTiempo);
             AmbienteOperativo.getInstancia().aumentarTiempoDeArriboProcesos(a,procesosEntrantes);
         }
 
@@ -101,16 +101,17 @@ public class Agente {
             matrizQ[s_modelo.getNumero()][a_modelo.getNumero()] = matrizQ[s_modelo.getNumero()][a_modelo.getNumero()] +
                     alfa * (reward_modelo + gamma * matrizQ[s_prima_modelo.getNumero()][a_prima_modelo.getNumero()] - matrizQ[s_modelo.getNumero()][a_modelo.getNumero()]);
 
-            this.incrementarRewardMatrizQConK(k, estadoActual, a);
         }
+
+        this.incrementarRewardMatrizQConK(k, estadoActual, a);
     }
 
     public void incrementarRewardMatrizQConK(double k, Estado estadoActual, Accion a) {
         matrizN[estadoActual.getNumero()][a.getNumero()] = 0;
         for (int i = 0; i < entorno.getArrayEstados().size(); i++) {
             for (int j = 0; j < entorno.getArrayAcciones().size(); j++) {
-                matrizN[i][j] =+ 1;
-                modelo[i][j][1] =+ k * Math.sqrt(matrizN[i][j]);
+                matrizN[i][j] += 1;
+                modelo[i][j][1] += k * Math.sqrt(matrizN[i][j]);
             }
         }
 	    matrizN[estadoActual.getNumero()][a.getNumero()] = 0;
@@ -246,5 +247,22 @@ public class Agente {
     }
 
     public Estado getEstadoActual(){ return this.estadoActual;}
+
+    public void imprimirMatrizQ(){
+        NumberFormat formatter = new DecimalFormat("#000.00");
+        String titulo = "";
+        for (int k = 0; k < entorno.getArrayEstados().get(entorno.getArrayEstados().size()-1).toString().length(); k++){
+            titulo += " ";
+        }
+        titulo += "    AT1    RT1    AT2    RT2    AT3    RT3    AT4    RT4    AT5    RT5";
+        System.out.println(titulo);
+        for (int i = 0; i < matrizQ.length; i++){
+            System.out.print(entorno.getArrayEstados().get(i) + ": ");
+            for (int j = 0 ; j < matrizQ[i].length; j++){
+                System.out.print(" " + formatter.format(matrizQ[i][j]) );
+            }
+            System.out.println("");
+        }
+    }
 
 }

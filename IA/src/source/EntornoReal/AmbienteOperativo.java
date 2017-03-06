@@ -59,7 +59,6 @@ public class AmbienteOperativo {
                 arrayProcesosEntrantes.add(arrayProcesosTipoCinco.get(i));
             }
         }
-
         return arrayProcesosEntrantes;
     }
 

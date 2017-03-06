@@ -62,7 +62,8 @@ public class ControladorSimulacion {
 
             reloj.incrementarReloj();
         }
-
+        System.out.println("\n MatrizQ : ");
+        agente.imprimirMatrizQ();
         Impresor.crearGraficosSobreProcesos();
     }
 }
